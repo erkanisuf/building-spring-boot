@@ -1,0 +1,6 @@
+2022-10-09 00:20:24 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
+                Initializing Servlet 'dispatcherServlet'
+2022-10-09 00:20:24 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
+                Completed initialization in 1 ms
+2022-10-09 00:20:24 [http-nio-9000-exec-2] ERROR o.s.b.a.SpringBootApplication -
+                FUK

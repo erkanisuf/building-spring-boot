@@ -1,0 +1,26 @@
+2022-10-09 00:27:18,104 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.5.Final
+2022-10-09 00:27:18,113 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ErkanApplication using Java 17.0.3 on skenarilabssMBP with PID 12851 (/Users/skenariolabs/Desktop/erkan/target/classes started by skenariolabs in /Users/skenariolabs/Desktop/erkan)
+2022-10-09 00:27:18,113 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-10-09 00:27:18,588 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-9000"]
+2022-10-09 00:27:18,588 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-10-09 00:27:18,588 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-09 00:27:18,627 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-10-09 00:27:18,687 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-09 00:27:18,705 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-09 00:27:18,763 INFO [main] org.hibernate.spatial.integration.SpatialService: HHH80000001: hibernate-spatial integration enabled : true
+2022-10-09 00:27:18,773 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-09 00:27:18,809 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-10-09 00:27:18,860 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-10-09 00:27:18,868 INFO [main] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.spatial.dialect.postgis.PostgisDialect
+2022-10-09 00:27:19,094 WARN [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler: SQL Warning Code: 0, SQLState: 00000
+2022-10-09 00:27:19,094 WARN [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler: table "buildings" does not exist, skipping
+2022-10-09 00:27:19,095 WARN [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler: SQL Warning Code: 0, SQLState: 00000
+2022-10-09 00:27:19,095 WARN [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler: sequence "hibernate_sequence" does not exist, skipping
+2022-10-09 00:27:19,106 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-09 00:27:19,415 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-9000"]
+2022-10-09 00:27:19,428 INFO [main] org.springframework.boot.StartupInfoLogger: Started ErkanApplication in 1.474 seconds (JVM running for 1.838)
+2022-10-09 00:27:24,248 INFO [http-nio-9000-exec-2] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-09 00:27:24,283 ERROR [http-nio-9000-exec-2] com.example.erkan.services.BuildingServiceImpl: FUK
+2022-10-09 00:28:17,770 INFO [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-09 00:28:17,774 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-10-09 00:28:17,775 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
